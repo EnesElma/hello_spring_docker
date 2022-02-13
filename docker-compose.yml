@@ -1,0 +1,10 @@
+version: "3.7"
+
+services:
+  hello_spring_docker:
+    build: .
+    image: elmaenes/hello_spring_docker
+    container_name: hello_spring_docker
+    ports:
+    - "8080:8080"
+
